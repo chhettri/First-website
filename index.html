@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css" />
+    <!------------------FONTS LINKS----------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-------------------------BOOTSTRAP LINK------------------------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+      integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo"
+      crossorigin="anonymous"
+    />
+    <!-- javaSceipt links-->
+    <script src="nav-link.js"></script>
+  </head>
+  <body>
+    <!-------------HEADER SECTION---------------->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="public/logo.png" alt="logo.img" /></a>
+        <div class="nav-link" id="nav-bars">
+          <i class="bi bi-x" onclick="hideNav()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Aboutus.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="BLOG.html">BLOG</a></li>
+            <li><a href="contact us.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showNav()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>World biggest university</h1>
+        <p>
+          making a website is easy one you just need to know three basic
+          languages html, css, and javaScript.
+        </p>
+        <a href="" class="hero-btn">visit us for more</a>
+      </div>
+    </section>
+    <!-----------------COURSE SECTION--------->
+    <section class="course">
+      <h1>Couse we offer.</h1>
+      <p class="course-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing.
+      </p>
+      <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+        perspiciatis amet exercitationem pariatur architecto voluptate accusamus
+        adipisci nihil eligendi! Qui, pariatur ab. Est non, ducimus optio iste
+        iure doloribus excepturi.
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+        perspiciatis amet exercitationem pariatur architecto voluptate accusamus
+        adipisci nihil eligendi! Qui, pariatur ab. Est non, ducimus optio iste
+        iure doloribus excepturi.
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+        perspiciatis amet exercitationem pariatur architecto voluptate accusamus
+        adipisci nihil eligendi! Qui, pariatur ab. Est non, ducimus optio iste
+        iure doloribus excepturi.
+      </div>
+    </div>
+    </section>
+    <!-----------------------------CAMPUS-------------------------->
+    <section class="Campus">
+      <h1>Our Globle Campus</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="/public/london.png">
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="/public/newyork.png">
+          <div class="layer">
+            <h3>NEWYORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="/public/washington.png">
+          <div class="layer">
+            <h3>WASHITONG</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------- FACILITIES OF  CAMPUS ----------------------------------->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="/public/library.png" alt="">
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Totam velit vero alias commodi sed animi?</p>
+        </div>
+        <div class="facilities-col">
+          <img src="/public/basketball.png" alt="">
+          <h3>Largest PlayGround</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Totam velit vero alias commodi sed animi?</p>
+        </div>
+        <div class="facilities-col">
+          <img src="/public/cafeteria.png" alt="">
+          <h3>Tasty And Healty Food</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Totam velit vero alias commodi sed animi?</p>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------- TESTIMONIALS --------------------------------->
+    <section class="testimonial">
+      <h1>Testimonials</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="/public/user1.jpg" alt="">
+          <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia assumenda ab harum saepe quis labore atque officiis provident illum nulla? Ratione cum voluptate dolorem deleniti distinctio et obcaecati ea. Aspernatur pariatur eveniet voluptatem amet? Lorem ipsum dolor sit amet.</p>
+            <h3>Alexa Einistine</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="/public/user2.jpg" alt="">
+          <div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia assumenda ab harum saepe quis labore atque officiis provident illum nulla? Ratione cum voluptate dolorem deleniti distinctio et obcaecati ea. Aspernatur pariatur eveniet voluptatem amet? Lorem ipsum dolor sit amet.</p>
+            <h3>David byer</h3>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------ CALL TO ACTION ----------------------------->
+    <section class="cta">
+      <h1 class="cta-h1">
+        Enroll for our various course <br> Anywhere from the World.
+      </h1>
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+   <!------------------- FOOTER -------------------------->
+   <section class="footer">
+    <h4 class="about-us-h4">ABOUT US</h4>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit <br> Doloremque dicta molestias Lorem.</P>
+    <div class="icons">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-twitter"></i>
+    </div>
+    <P>Copyright &copy; Pratik Karki</P>
+  </section>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CONTACT US</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+    integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous" />
+  <script src="nav-link.js"></script>
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="public/logo.png" alt="logo.img" /></a>
+      <div class="nav-link" id="nav-bars">
+        <i class="bi bi-x" onclick="hideNav()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Aboutus.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="BLOG.html">BLOG</a></li>
+          <li><a href="contact us.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-list" onclick="showNav()"></i>
+    </nav>
+    <h1>CONTACT US</h1>
+  </section>
+  <!-----------CONTACT US------------------>
+  <section class="location">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7066.850822781312!2d85.3537977!3d27.6732437!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1658400895298!5m2!1sen!2snp"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="bi bi-house-fill"></i>
+          <span>
+            <h5>
+              Jadibuti, KTM
+            </h5>
+            <p>
+              Kathmandu, <br> Nepal
+            </p>
+          </span>
+        </div>
+        <div>
+          <i class="bi bi-phone-fill"></i>
+          <span>
+            <h5>
+              PH NO:-98xxxxxx
+            </h5>
+            <p>
+              Monday to Friday
+            </p>
+          </span>
+        </div>
+        <div>
+          <i class="bi bi-envelope-fill"></i>
+          <span class="my-gmail">
+            <h5>
+              prat@gmail.com
+            </h5>
+            <p>Email Us Your <br> Qurey</p>
+          </span>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email Address" required>
+            <input type="text" placeholder="Enter Your Subject" required>
+            <textarea rows="10" placeholder="Message" required></textarea> 
+            <button type="submit" class="hero-btn red-btn">submit</button>
+          </form>
+        </div>
+      </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
+    <h4 class="about-us">ABOUT US</h4>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit <br> Doloremque dicta molestias Lorem.</P>
+    <div class="icons">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-twitter"></i>
+    </div>
+    <P>Copyright &copy; Pratik Karki</P>
+  </section>
+</body>
+
+</html>
